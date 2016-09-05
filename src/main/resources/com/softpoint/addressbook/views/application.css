@@ -1,0 +1,75 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-font-family: 'Roboto Condensed';
+	-fx-font-size: 14px;
+}
+.header {
+	-fx-font-family: 'Roboto Slab';
+	-fx-font-size: 20px;
+}
+.sub-header {
+	-fx-font-family: 'Roboto Slab';
+	-fx-font-weight: bold;
+}
+.panel {
+	-fx-padding: 10.0 15.0 10.0 15.0;
+}
+.context-button {
+	-fx-padding: 0.0;
+	-fx-background-color: transparent ;
+	-fx-border-width: 0.0;
+}
+.context-button:hover {
+	-fx-cursor: hand ;
+}
+.tool-button {
+	-fx-padding: 2.0 7.0;
+	-fx-border-radius: 0.0;
+	-fx-background-radius: 0.0;
+}
+.add-photo-button {
+	-fx-padding: 0.0;
+	-fx-border-width: 0.0;
+	-fx-border-radius: 12.0;
+	-fx-background-radius: 12.0;
+}
+.serach-text-input {
+	-fx-border-radius: 14px;
+	-fx-padding: 0.0 15.0;
+	-fx-background-radius: 14px;
+}
+
+.label-name {
+	-fx-font-family: 'Roboto Slab';
+	-fx-font-size: 24px;
+}
+.label-light-right{
+	-fx-alignment: center-right;
+	-fx-text-fill: #999;
+}
+.panel-2 {
+	-fx-background-color: white;
+	-fx-border-color: #999;
+	-fx-border-width: 2.0 2.0 2.0 10.0;
+	-fx-padding: 10.0;
+}
+.tile{
+	-fx-font-family: 'Roboto Condensed';
+	-fx-text-fill: white;
+	-fx-background-radius: 0.0;
+	-fx-border-radius: 0.0;
+}
+.tile1{
+	-fx-font-family: 'Roboto Condensed';
+	-fx-text-fill: white;
+	-fx-background-radius: 0.0;
+	-fx-border-radius: 0.0;
+	-fx-background-color: #0067c7;
+	-fx-background-image: url("img/settings.png") ;
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: center;
+	-fx-background-size: 36 36;
+}
+.tile1:hover{	
+	-fx-effect: innershadow( gaussian, rgba(0,0,0,0.2), 100, 0.5, 0 ,0); 
+}
